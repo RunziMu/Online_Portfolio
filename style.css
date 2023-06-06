@@ -7,16 +7,21 @@
     border-radius: 5px;
 } */
 body{
-    display: grid;
+    /* display: grid;
     grid-template-columns: auto auto;
     column-gap: 20px;
-    row-gap: 20px;
-    background-color: beige;
+    row-gap: 20px; */
+    background-color: rgb(239, 239, 239);
+    text-align: center;
 }
 div{
     border: 1px solid rgb(194, 188, 188);
     border-radius: 10px;
     padding: 15px;
+    background-color: aliceblue;
+    display: inline-block;
+    margin: 10px auto;
+    
 }
 button{
     margin-bottom: 10px;
@@ -24,5 +29,13 @@ button{
 }
 textarea {
     border-radius: 10px;
-    background-color: rgb(223, 211, 193);
+    background-color: rgb(251, 251, 251);
+}
+
+form label {display: block;
+    }
+
+input{
+    border: solid 1px grey;
+    border-radius: 5px;
 }
